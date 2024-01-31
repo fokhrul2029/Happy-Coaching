@@ -1,0 +1,44 @@
+/* Imported Google Font-family */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&display=swap");
+/* Replacement / common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  font-family: "Kumbh Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.title {
+  color: #333461;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+}
+.btn {
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  background: #20ad96;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #20ad96;
+  border: 1px solid #20ad96;
+  transition: 0.3s ease;
+}
