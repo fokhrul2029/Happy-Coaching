@@ -76,8 +76,7 @@ header {
   cursor: pointer;
   transition: 0.2s ease-in;
 }
-.hamburger:hover {
-  border: 1px solid transparent;
+.hamburger:hover { 
   color: white;
   background-color: #20ad96;
 }
