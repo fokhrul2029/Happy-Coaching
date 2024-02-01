@@ -52,16 +52,35 @@ img {
 }
 
 /* Header / navbar Styles  */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px 0; 
 }
 .navbar .logo {
   max-width: 150px;
 }
-
+.hamburger {
+  display: none;
+  border: 1px solid #20ad96;
+  color: #20ad96;
+  padding: 0px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.hamburger:hover {
+  border: 1px solid transparent;
+  color: white;
+  background-color: #20ad96;
+}
 .navbar ul {
   list-style: none;
   display: flex;
@@ -83,7 +102,7 @@ img {
 }
 /* hero-section  styles */
 .hero-section {
-  padding-top: 100px;
+  padding-top: 160px;
   background: #faf8f6;
 }
 .hero-section .wrapper {

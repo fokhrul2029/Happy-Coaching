@@ -1,0 +1,117 @@
+/* Responsive styles for medium Device  */
+@media screen and (max-width: 992px) {
+  /* Header Section  */
+  header {
+    position: relative;
+  }
+  .hamburger {
+    display: block;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 64px;
+    width: 100%;
+    left: 0;
+    padding-bottom: 20px;
+    transform-origin: top;
+  }
+  .menu ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+  /* Hero Section  */
+  .hero-section {
+    padding-top: 100px;
+  }
+  .hero-section .wrapper {
+    flex-direction: column;
+    gap: 70px;
+  }
+  .hero-section span {
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .hero-section p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero-section .btn {
+    margin: 0 auto;
+    display: block;
+  }
+  .hero-section .imgFrame {
+    left: 0;
+  }
+  /* Area Section  */
+  .area-section .wrapper1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .area-section .wrapper1 .wrap2 {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .area-section .wrapper2 .wrap {
+    grid-column: span 3;
+  }
+  /* Review Section  */
+  .review-section h1 {
+    text-align: center;
+  }
+  .review-section .wrapper .wrap {
+    grid-column: span 3;
+  }
+  /* Guide Section  */
+  .guide-section .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .guide-section .wrapper .pera {
+    margin: 0 auto;
+  }
+  .guide-section img {
+    margin-top: -40px;
+    margin-left: 0;
+  }
+  /* Complimentary Section  */
+  .complimentary-section .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* Newsletter Section  */
+  .newsletter-section .wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+}
+
+/* Responsive Styles for Mobile Device  */
+@media screen and (max-width: 600px) {
+  /* Area Section  */
+  .area-section .wrapper2 .wrap {
+    grid-column: span 6;
+  }
+  /* Review Section  */
+  .review-section .wrapper .wrap {
+    grid-column: span 6;
+  }
+  /* Article Section  */
+  .article-section .wrapper {
+    flex-direction: column;
+  }
+  /* Footer Content  */
+  footer .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .wrapper p {
+    margin: 0 auto;
+  }
+}
